@@ -22,7 +22,7 @@ public class productService {
       }
       System.out.print("testin"+prod);
 
-      return prod;
+      return convertToDto(prod);
 
    }
 
