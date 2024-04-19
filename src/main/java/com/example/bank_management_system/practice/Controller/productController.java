@@ -22,7 +22,7 @@ public class productController {
         //productService ps = new productService(); //this is not good approach to do call your object here.
         //here comes the dependency injection by constructors.
 
-        return productService.getProductById(id);
+        return productService.getProductDto(id);
 
     }
  //get all the data in of products
